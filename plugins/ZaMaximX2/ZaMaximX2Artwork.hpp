@@ -11,14 +11,14 @@ namespace ZaMaximX2Artwork
     const unsigned int knobHeight   = 42;
 
     extern const char* ledredData;
-    const unsigned int ledredDataSize = 484;
-    const unsigned int ledredWidth    = 11;
-    const unsigned int ledredHeight   = 11;
+    const unsigned int ledredDataSize = 324;
+    const unsigned int ledredWidth    = 9;
+    const unsigned int ledredHeight   = 9;
 
     extern const char* ledyellowData;
-    const unsigned int ledyellowDataSize = 484;
-    const unsigned int ledyellowWidth    = 11;
-    const unsigned int ledyellowHeight   = 11;
+    const unsigned int ledyellowDataSize = 324;
+    const unsigned int ledyellowWidth    = 9;
+    const unsigned int ledyellowHeight   = 9;
 
     extern const char* zamaximx2Data;
     const unsigned int zamaximx2DataSize = 180081;

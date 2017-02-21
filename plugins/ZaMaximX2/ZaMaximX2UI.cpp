@@ -45,7 +45,7 @@ ZaMaximX2UI::ZaMaximX2UI()
 
     // knob
     fKnobRelease = new ZamKnob(this, knobImage);
-    fKnobRelease->setAbsolutePos(27, 46);
+    fKnobRelease->setAbsolutePos(27, 47);
     fKnobRelease->setId(ZaMaximX2Plugin::paramRelease);
     fKnobRelease->setRange(1.0f, 100.0f);
     fKnobRelease->setScrollStep(1.0f);
@@ -56,7 +56,7 @@ ZaMaximX2UI::ZaMaximX2UI()
     fKnobRelease->setCallback(this);
 
     fKnobThresh = new ZamKnob(this, knobImage);
-    fKnobThresh->setAbsolutePos(110, 46);
+    fKnobThresh->setAbsolutePos(110, 47);
     fKnobThresh->setId(ZaMaximX2Plugin::paramThresh);
     fKnobThresh->setRange(-30.0f, 0.0f);
     fKnobThresh->setScrollStep(1.0f);
@@ -66,7 +66,7 @@ ZaMaximX2UI::ZaMaximX2UI()
     fKnobThresh->setCallback(this);
 
     fKnobCeiling = new ZamKnob(this, knobImage);
-    fKnobCeiling->setAbsolutePos(192, 46);
+    fKnobCeiling->setAbsolutePos(193, 47);
     fKnobCeiling->setId(ZaMaximX2Plugin::paramCeiling);
     fKnobCeiling->setRange(-30.0f, 0.0f);
     fKnobCeiling->setScrollStep(1.0f);
@@ -147,10 +147,10 @@ void ZaMaximX2UI::onDisplay()
 
     // draw leds
     static const float sLedSpacing  = 15.5f;
-    static const int   sLedInitialX = 256;
+    static const int   sLedInitialX = 258;
 
-    static const int sYellowLedStaticY = 18;
-    static const int sRedLedStaticY    = 47;
+    static const int sYellowLedStaticY = 19;
+    static const int sRedLedStaticY    = 48;
 
     int numRedLeds;
     int numYellowLeds;
